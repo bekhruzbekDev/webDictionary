@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-clr);
+}
+.serif {
+  font-family: "Lora", serif;
+}
+.mono {
+  font-family: "Inconsolata", monospace;
+}
+.darkMode{
+  --bg-clr :#050505;
+  --bg-clr2 :#1f1f1f;
+  --text-clr:#ffffff;
+  --icon-bg:#8f19e8;
+  --input-bg: #1f1f1f;
+  --hr-clr:#3a3a3a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul > li::marker {
+  color: #8f19e8;
+  font-size: 18px;
+}
+.container {
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 784px;
+}
+
+.hade {
+  display: none;
+}
